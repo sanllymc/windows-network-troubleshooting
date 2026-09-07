@@ -1,0 +1,27 @@
+Windows Network Troubleshooting Lab
+Test: Internet Connectivity
+
+Command:
+ping 8.8.8.8
+
+Result:
+
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=10ms TTL=118
+Reply from 8.8.8.8: bytes=32 time=6ms TTL=118
+Reply from 8.8.8.8: bytes=32 time=6ms TTL=118
+Reply from 8.8.8.8: bytes=32 time=7ms TTL=118
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4
+    Received = 4
+    Lost = 0 (0% loss)
+
+Approximate round trip times in milli-seconds:
+    Minimum = 6ms
+    Maximum = 10ms
+    Average = 7ms
+
+Conclusion:
+Internet connectivity was successfully verified.
+The test showed 0% packet loss with an average latency of 7 ms.
