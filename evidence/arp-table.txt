@@ -1,0 +1,36 @@
+Test: ARP Table Analysis
+
+Command:
+arp -a
+
+Physical Wi-Fi Interface:
+192.168.10.25
+
+ARP Entries:
+
+Internet Address      Physical Address      Type
+192.168.10.1          XX-XX-XX-XX-XX-01     dynamic
+192.168.10.50         XX-XX-XX-XX-XX-02     dynamic
+192.168.10.51         XX-XX-XX-XX-XX-03     dynamic
+192.168.10.52         XX-XX-XX-XX-XX-04     dynamic
+192.168.10.255        FF-FF-FF-FF-FF-FF     static
+224.0.0.22            01-00-5E-00-00-16     static
+224.0.0.251           01-00-5E-00-00-FB     static
+224.0.0.252           01-00-5E-00-00-FC     static
+239.255.255.250       01-00-5E-7F-FF-FA     static
+255.255.255.255       FF-FF-FF-FF-FF-FF     static
+
+VMware VMnet8:
+172.16.200.1
+172.16.200.254 → XX-XX-XX-XX-XX-05
+
+VMware VMnet1:
+172.16.100.1
+172.16.100.254 → XX-XX-XX-XX-XX-06
+
+Conclusion:
+The ARP table contains dynamic IP-to-MAC mappings for multiple devices on the local network.
+
+The default gateway was identified through ARP, demonstrating the relationship between IPv4 addresses and Layer 2 MAC addresses.
+
+MAC addresses and network-specific identifiers were sanitized before publication.
