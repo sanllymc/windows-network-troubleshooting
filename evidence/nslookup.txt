@@ -1,0 +1,31 @@
+Test: DNS Resolution
+
+Command:
+nslookup
+
+Default Server: settings.com
+Address:  xx.xx.xx.xx
+
+Query 1:
+google.com
+
+Result:
+Non-authoritative answer:
+Name:    google.com
+Addresses:
+    2607:f8b0:4006:804::200e
+    142.250.217.142
+
+Query 2:
+facebook.com
+
+Result:
+Non-authoritative answer:
+Name:    facebook.com
+Addresses:
+    2a03:2880:f316:1:face:b00c:0:25de
+    57.144.50.1
+
+Conclusion:
+DNS resolution was successfully verified.
+The DNS server successfully resolved both domain names to IPv4 and IPv6 addresses.
