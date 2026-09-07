@@ -1,5 +1,3 @@
-# windows-network-troubleshooting
-
 # Windows Network Troubleshooting Lab
 
 ## Overview
