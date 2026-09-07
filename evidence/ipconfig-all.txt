@@ -1,0 +1,71 @@
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : LAB-WIN11-01
+   Primary Dns Suffix . . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Killer E2600 Gigabit Ethernet Controller
+   Physical Address. . . . . . . . . : XX-XX-XX-XX-XX-XX
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : [REDACTED]
+   Description . . . . . . . . . . . : Killer(R) Wi-Fi 6 AX1650i 160MHz Wireless Network Adapter
+   Physical Address. . . . . . . . . : XX-XX-XX-XX-XX-XX
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+   IPv6 Address. . . . . . . . . . . : [REDACTED]
+   Temporary IPv6 Address. . . . . . : [REDACTED]
+   Link-local IPv6 Address . . . . . : fe80::[REDACTED]
+   IPv4 Address. . . . . . . . . . . : 192.168.10.25
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+
+   Lease Obtained . . . . . . . . . : [SANITIZED]
+   Lease Expires . . . . . . . . . . : [SANITIZED]
+
+   Default Gateway . . . . . . . . . : 192.168.10.1
+   DHCP Server . . . . . . . . . . . : 192.168.10.1
+
+   DHCPv6 IAID . . . . . . . . . . . : [REDACTED]
+   DHCPv6 Client DUID. . . . . . . . : [REDACTED]
+
+   DNS Servers . . . . . . . . . . . : 192.168.10.1
+                                       [REDACTED]
+
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter VMware Network Adapter VMnet1:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet1
+   Physical Address. . . . . . . . . : XX-XX-XX-XX-XX-XX
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv4 Address. . . . . . . . . . . : 172.16.100.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+   DHCP Server . . . . . . . . . . . : 172.16.100.254
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter VMware Network Adapter VMnet8:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet8
+   Physical Address. . . . . . . . . : XX-XX-XX-XX-XX-XX
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv4 Address. . . . . . . . . . . : 172.16.200.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+   DHCP Server . . . . . . . . . . . : 172.16.200.254
+   Primary WINS Server . . . . . . . : 172.16.200.2
+   NetBIOS over Tcpip. . . . . . . . : Enabled
