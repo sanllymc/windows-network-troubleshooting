@@ -1,14 +1,22 @@
+Test: Default Gateway Connectivity
 
-C:\ping xx.xx.xx.xx
+Command:
+ping 192.168.10.1
 
-Pinging xx. with 32 bytes of data:
-Reply from xx.xx.xx.xx: bytes=32 time=3ms TTL=64
-Reply from xx.xx.xx.xx: bytes=32 time=2ms TTL=64
-Reply from xx.xx.xx.xx: bytes=32 time=6ms TTL=64
-Reply from xx.xx.xx.xx: bytes=32 time=2ms TTL=64
+Result:
 
-Ping statistics for xx.xx.xx.xx:
-    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Pinging 192.168.10.1 with 32 bytes of data:
+Reply from 192.168.10.1: bytes=32 time=2ms TTL=64
+Reply from 192.168.10.1: bytes=32 time=1ms TTL=64
+Reply from 192.168.10.1: bytes=32 time=3ms TTL=64
+Reply from 192.168.10.1: bytes=32 time=2ms TTL=64
+
+Ping statistics for 192.168.10.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)
+
 Approximate round trip times in milli-seconds:
-    Minimum = 2ms, Maximum = 6ms, Average = 3ms
+    Minimum = 1ms, Maximum = 3ms, Average = 2ms
 
+Conclusion:
+Connectivity to the default gateway was successfully verified.
+The test showed 0% packet loss with an average latency of 2 ms.
